@@ -1,0 +1,31 @@
+{
+  "employees": [
+    {
+      "numEmpleado": 1,
+      "nombre": "Eduardo Ulises",
+      "correo": "hernandez@gmail.com",
+      "telefono": "477879793",
+      "fechaNacimineto": "29-05-2003",
+      "sexo": "H",
+      "id": "a8da"
+    },
+    {
+      "numEmpleado": 2,
+      "nombre": "Brenda Guierrez",
+      "correo": "brenda@gmail.com",
+      "telefono": "477879793",
+      "fechaNacimineto": "27-03-2003",
+      "sexo": "M",
+      "id": "e375"
+    },
+    {
+      "id": "8902",
+      "numEmpleado": 100021,
+      "nombre": "Simon Jonatan",
+      "correo": "simon@gmail.com",
+      "telefono": "39173971",
+      "fechaNacimineto": "2024-06-03",
+      "sexo": "masculino"
+    }
+  ]
+}

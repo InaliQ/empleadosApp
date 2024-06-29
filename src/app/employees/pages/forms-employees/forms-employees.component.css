@@ -1,0 +1,67 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* Space between sections */
+  padding: 24px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 80%; /* Takes more space on the screen */
+  max-width: 900px; /* Max width to prevent it from getting too large */
+}
+
+.form-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.radio-group {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+button {
+  align-self: flex-start;
+  padding: 8px 16px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #303f9f;
+}

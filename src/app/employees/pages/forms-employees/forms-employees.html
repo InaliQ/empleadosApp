@@ -1,0 +1,42 @@
+<div class="form-container">
+  <form [formGroup]="employeesForms" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="numEmpleado">Número de Empleado</label>
+      <input id="numEmpleado" type="number" formControlName="numEmpleado" required>
+    </div>
+
+    <div>
+      <label for="nombre">Nombre</label>
+      <input id="nombre" type="text" formControlName="nombre" required>
+    </div>
+
+    <div>
+      <label for="correo">Correo</label>
+      <input id="correo" type="email" formControlName="correo" required>
+    </div>
+
+    <div>
+      <label for="telefono">Teléfono</label>
+      <input id="telefono" type="text" formControlName="telefono" required>
+    </div>
+
+    <div>
+      <label for="fechaNacimineto">Fecha de nacimiento</label>
+      <input id="fechaNacimineto" type="date" formControlName="fechaNacimineto" required>
+    </div>
+
+    <div>
+      <label>Sexo</label>
+      <div>
+        <input type="radio" id="masculino" value="masculino" formControlName="sexo">
+        <label for="masculino">Masculino</label>
+      </div>
+      <div>
+        <input type="radio" id="femenino" value="femenino" formControlName="sexo">
+        <label for="femenino">Femenino</label>
+      </div>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>

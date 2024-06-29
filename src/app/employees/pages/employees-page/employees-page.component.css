@@ -1,0 +1,14 @@
+.employee-card {
+  margin-bottom: 20px; /* Ejemplo de ajuste de margen inferior */
+}
+
+.employee-card-content {
+  padding: 10px; /* Ejemplo de ajuste de relleno dentro de la tarjeta */
+}
+
+.mat-card-actions {
+  justify-content: flex-end; /* Alinea los botones a la derecha dentro de la tarjeta */
+}
+.mat-mdc-card-title{
+  color: white !important;
+}
